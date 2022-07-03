@@ -1,0 +1,403 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+body {
+  background-color: #4a4e53;
+}
+
+.log {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.log .logo img {
+  width: 300px;
+}
+
+.log .register {
+  padding-bottom: 20px;
+}
+
+.log .register button {
+  background-color: #FF4938;
+  border: 1px solid white;
+  font-size: 2em;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  cursor: pointer;
+}
+
+.containerlog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+}
+
+.register {
+  background-color: #FF4938;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  color: white;
+}
+
+.register input {
+  padding: 10px;
+  width: auto;
+  height: auto;
+  border: 1px solid #FF4938;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.register button {
+  padding: 10px;
+  width: 200px;
+  height: 80px;
+  border: 1px solid white;
+  background-color: #FF4938;
+  border-radius: 5px;
+  font-size: 1em;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.login {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  width: 300px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+  margin: auto auto;
+  color: #FF4938;
+  font-size: 2em;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.login #logfail p {
+  font-size: 1em;
+}
+
+.login button {
+  padding: 10px;
+  width: 200px;
+  height: 80px;
+  border: 1px solid white;
+  background-color: #FF4938;
+  border-radius: 5px;
+  font-size: 1em;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.login input {
+  padding: 10px;
+  width: 200px;
+  height: 80px;
+  border: 1px solid white;
+  background-color: #FF4938;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.login ::-webkit-input-placeholder {
+  color: white;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  opacity: 50%;
+}
+
+.sectvolver {
+  margin: auto auto;
+  background-color: #FF4938;
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  font-family: 'Kdam Thmor Pro',
+ sans-serif;
+}
+
+.sectvolver a {
+  text-decoration: none;
+  color: white;
+}
+
+.sectlogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sectlogo img {
+  width: 300px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0px;
+}
+
+.container a {
+  color: white;
+  text-decoration: none;
+}
+
+.container h2 {
+  color: white;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 150px;
+  color: white;
+  font-size: 2.3em;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.container .gimnasio {
+  margin: auto auto;
+  width: 300px;
+  height: 300px;
+  background: url("../img/gimnasio.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.container .restaurante {
+  margin: auto auto;
+  width: 300px;
+  height: 300px;
+  background: url("../img/restaurante.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.container .kiosko {
+  margin: auto auto;
+  width: 300px;
+  height: 300px;
+  background: url("../img/kiosko.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.pturno {
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-size: 1em;
+  color: white;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.pturno #textgym {
+  font-size: 1em;
+}
+
+.pturno .turno {
+  border-radius: 10px;
+  margin: auto auto;
+  width: 300px;
+  height: 100px;
+  background-color: #FF4938;
+  text-align: center;
+  color: white;
+}
+
+.pturno .turno button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #FF4938;
+  border-radius: 5px;
+  border: 1px solid white;
+  margin: auto;
+  width: 8em;
+  height: 2em;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.pturno .turno button:hover {
+  background-color: #4a4e53;
+}
+
+.sectresto {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.productosresto {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+}
+
+.productosresto img {
+  width: 250px;
+  border-radius: 4px;
+}
+
+.productosresto li {
+  list-style: none;
+}
+
+.productosresto .listado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+}
+
+.productosresto .pricebutton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto 50px;
+}
+
+.productosresto .pricebutton button {
+  width: auto;
+  margin: auto auto;
+  background-color: #FF4938;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.productosresto .pricebutton button:hover {
+  -webkit-box-shadow: 2px 2px 2px white;
+          box-shadow: 2px 2px 2px white;
+  cursor: pointer;
+}
+
+.carritoresto {
+  min-width: 400px;
+  max-width: 400px;
+  height: auto;
+  text-align: center;
+  background-color: #FF4938;
+}
+
+.carritoresto li {
+  list-style-type: none;
+}
+
+.carritoresto img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.agregadoEnCarrito {
+  margin: auto auto;
+}
+
+.agregadoEnCarrito .rectcontent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 180px;
+  display: flex;
+  background-color: #FF4938;
+  width: 500px;
+}
+
+.agregadoEnCarrito .rectcontent i {
+  padding: 30px;
+  font-size: 30px;
+}
+
+.sectkiosko {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+
+@media screen and (min-width: 768px) {
+  .login {
+    font-size: 1em;
+    height: 400px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

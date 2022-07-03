@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap");
+body {
+  background-color: #4a4e53;
+}
+
+.log {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.log .logo img {
+  width: 300px;
+}
+
+.containerlog {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.sectvolver {
+  margin: auto auto;
+  background-color: #FF4938;
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+.sectvolver a {
+  text-decoration: none;
+  color: white;
+}
+
+.sectlogo {
+  display: flex;
+  justify-content: center;
+}
+.sectlogo img {
+  width: 300px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.container a {
+  color: white;
+  text-decoration: none;
+}
+.container h2 {
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  color: white;
+  font-size: 2.3em;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+.container .gimnasio {
+  margin: auto auto;
+  width: 300px;
+  height: 300px;
+  background: url("../img/gimnasio.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.container .restaurante {
+  margin: auto auto;
+  width: 300px;
+  height: 300px;
+  background: url("../img/restaurante.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.container .kiosko {
+  margin: auto auto;
+  width: 300px;
+  height: 300px;
+  background: url("../img/kiosko.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.pturno {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-size: 1em;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.pturno #textgym {
+  font-size: 1em;
+}
+.pturno .turno {
+  border-radius: 10px;
+  margin: auto auto;
+  width: 300px;
+  height: 100px;
+  background-color: #FF4938;
+  text-align: center;
+  color: white;
+}
+.pturno .turno button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FF4938;
+  border-radius: 5px;
+  border: 1px solid white;
+  margin: auto;
+  width: 8em;
+  height: 2em;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+  transition: all 1s;
+}
+.pturno .turno button:hover {
+  background-color: #4a4e53;
+}
+
+.sectresto {
+  color: white;
+  display: flex;
+  height: auto;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.productosresto {
+  flex: 1;
+  text-align: center;
+}
+.productosresto img {
+  width: 250px;
+  border-radius: 4px;
+}
+.productosresto li {
+  list-style: none;
+}
+.productosresto .listado {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.productosresto .pricebutton {
+  display: flex;
+  margin: auto 50px;
+}
+.productosresto .pricebutton button {
+  width: auto;
+  margin: auto auto;
+  background-color: #FF4938;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+.productosresto .pricebutton button:hover {
+  box-shadow: 2px 2px 2px white;
+  cursor: pointer;
+}
+
+.carritoresto {
+  min-width: 400px;
+  max-width: 400px;
+  height: auto;
+  text-align: center;
+  background-color: #FF4938;
+}
+.carritoresto li {
+  list-style-type: none;
+}
+.carritoresto img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.agregadoEnCarrito {
+  margin: auto auto;
+}
+
+.sectkiosko {
+  color: white;
+  display: flex;
+  height: auto;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.swal {
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.cerrarss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+.cerrarss h2 {
+  background-color: #FF4938;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.cerrarss h2:hover {
+  box-shadow: 2px 2px 2px black;
+}
+
+.rectcontent {
+  color: white;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 180px;
+  display: flex;
+  background-color: #FF4938;
+  width: 500px;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+.rectcontent i {
+  padding: 30px;
+  font-size: 30px;
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    margin: 0px 200px;
+    gap: 50px;
+  }
+
+  .login {
+    font-size: 1em;
+    height: 400px;
+  }
+
+  .register {
+    font-size: 1em;
+    height: 400px;
+  }
+  .register input {
+    height: 50px;
+  }
+
+  .containerlog {
+    flex-direction: row;
+  }
+}/*# sourceMappingURL=main.css.map */
