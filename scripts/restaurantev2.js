@@ -6,46 +6,6 @@ class AgregarCarrito{
 }
 let carrito = 0
 
-
-// const productos = [
-//     {
-//         id: 1,
-//         nombre: "Pizza grande",
-//         img: "../img/pizza.jpg",
-//         precio: 1400,
-//     },
-//     {
-//         id: 2,
-//         nombre: "Milanesa con guarnicion",
-//         img: "../img/milanesa.jpg",
-//         precio: 1300,
-//     },
-//     {
-//         id: 3,
-//         nombre: "Ensalada cesar",
-//         img: "../img/ensalada.jpg",
-//         precio: 1000,
-//     },
-//     {
-//         id: 4,
-//         nombre: "Tacos X3",
-//         img: "../img/tacos.jpg",
-//         precio: 1150,
-//     },
-//     {
-//         id: 5,
-//         nombre: "Asado con guarnicion",
-//         img: "../img/asado.jpg",
-//         precio: 1600,
-//     },
-//     {
-//         id: 6,
-//         nombre: "Helado",
-//         img: "../img/helado.jpg",
-//         precio: 700,
-//     },
-    
-// ];
 let productos;
 
 const InsertarProductos = () =>{
