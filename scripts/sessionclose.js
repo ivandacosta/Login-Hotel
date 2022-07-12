@@ -1,4 +1,4 @@
-//cerrar sesion
+
 let nombreUsuario = localStorage.getItem("usuario")
 let ContraUsuario = localStorage.getItem("password")
 

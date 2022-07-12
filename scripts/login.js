@@ -1,4 +1,4 @@
-//:activar efecto en html
+
 const $btnSignIn = document.querySelector(".sign-in-btn"),
       $btnSignUp = document.querySelector(".sign-up-btn"),
       $signUp = document.querySelector(".sign-up"),
@@ -24,9 +24,7 @@ const Toast = Swal.mixin({
     toast.addEventListener('mouseleave', Swal.resumeTimer)
   }
 })
-//----------------------------------------------------------------------------------------------------
 
-//Constructor de usuario
 class Usuario{
     constructor(user, pass){
         this.user = user
@@ -34,13 +32,7 @@ class Usuario{
     }
 }
 
-//Usuarios -- EN CONSTRUCCION EN CONSTRUCCION EN CONSTRUCCIONEN CONSTRUCCION EN CONSTRUCCION EN CONSTRUCCION
-const usuarios = [
-    {usuario: "ivandacosta", password: "ivandacosta" }
-]
-//----------------------------------------------------------------------------------------------------
 
-//Llamando al html // Formulario de registro
 let newUsuario = document.getElementById("rusername")
 let newPassword = document.getElementById("rpassword")
 let enviarDatos = document.getElementById("rsend")
@@ -49,7 +41,6 @@ let userpass;
 
 
 
-//Creando usuario
 enviarDatos.addEventListener("click", (e) => {
     e.preventDefault
     if(newUsuario.value !== "" && newPassword.value !== ""){
@@ -69,9 +60,6 @@ enviarDatos.addEventListener("click", (e) => {
 })
 
 
-//Llamando al html // Formulario de logueo
-// let nombreUsuario = localStorage.getItem('nombreUsuario');
-// let passwordUsuario = localStorage.getItem('passwordUsuario');
 
 let elUsername = document.getElementById("username")
 let elPassword = document.getElementById("password")
@@ -111,5 +99,5 @@ const redireccionar = () =>{
 }
 
 
-//invocando funciones
-redireccionar();           //redireccionar si existe usuario
+
+redireccionar();

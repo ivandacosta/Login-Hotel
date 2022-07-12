@@ -17,7 +17,7 @@ class usuario {
 }
 
 
-//REGISTRO DE USUARIO
+
 const register = () => {
     for (let i = 2; i >= 0; i--) {
         username1 = prompt("Ingrese su usuario: ");
@@ -32,7 +32,7 @@ const register = () => {
 
 }
 
-//LOGIN
+
 const login = () => {
     for (let i = 2; i >= 0; i--) {
         usuario = prompt("Ingrese su usuario:");
@@ -48,7 +48,6 @@ const login = () => {
 
 }
 
-//GIMNASIO
 const gimnasio = () => {
     asignado = Number(prompt(`
    1) Asignar turno
@@ -68,7 +67,6 @@ const gimnasio = () => {
 }
 
 
-//KIOSKO
 const kiosko = () => {
     const menukiosko = [
         { producto: "LECHE", precio: "$150" },
@@ -139,7 +137,6 @@ const kiosko = () => {
 }
 
 
-//RESTAURANTE
 const restaurante = () => {
 
      const resto = [
@@ -210,7 +207,6 @@ const restaurante = () => {
 }
 
 
-//LOGUEO EXITOSO
 const logueado = () => {
     
         menu = Number(prompt(`
@@ -239,7 +235,7 @@ const logueado = () => {
 }
 
 
-//MENU 
+ 
 do {
 
     bienvenido = Number(prompt(`
