@@ -68,7 +68,10 @@ ul.append(li)
         }
         
         
-    })
+    }).catch(error => {
+        const ul = document.querySelector(".listado")
+        ul.innerHTML = `<h1>No encontramos los productos, recargar la pagina</h1>`
+    }).finally()
 }
 
 InsertarProductos();
