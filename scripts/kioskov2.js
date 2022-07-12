@@ -1,63 +1,37 @@
-const productos = [
-    {
-        id: 1,
-        nombre: "Alfajor X2",
-        img: "../img/alfajor.jpg",
-        precio: 500,
-    },
-    {
-        id: 2,
-        nombre: "Cigarrillos",
-        img: "../img/cigarrillos.jpg",
-        precio: 305,
-    },
-    {
-        id: 3,
-        nombre: "Golosinas 200g",
-        img: "../img/golosinas.jpg",
-        precio: 400,
-    },
-    {
-        id: 4,
-        nombre: "Yogurt crema",
-        img: "../img/yogurt.jpg",
-        precio: 335,
-    },
-    {
-        id: 5,
-        nombre: "Cocacola",
-        img: "../img/coca.jpg",
-        precio: 250,
-    },
-    {
-        id: 6,
-        nombre: "Agua mineral",
-        img: "../img/agua.jpg",
-        precio: 230,
-    },
-]
+let productos;
 
-productos.forEach(productos =>{
-    const ul = document.querySelector(".listado");
-    const li = document.createElement("li");
-    li.innerHTML =`<div class="imagenproductokiosko">
-    <img src="${productos.img}" alt="">
-</div>
-<p>${productos.nombre}</p>
-<div class="pricebutton">
-    <p>$${productos.precio}</p>
-    <button type="button" class="btn btn-info" onClick=comprar(${productos.id})>agregar</button>
-</div>`
+const InsertarProductos = () =>{
+    fetch("../json/kiosko.json")
+    .then(respuesta => respuesta.json())
+    .then(resultados => {
+        producto=resultados;
+        for(const producto of resultados){
+            const ul = document.querySelector(".listado");
+            const li = document.createElement("li");
+        li.innerHTML =`<div class="imagenproductokiosko">
+        <img src="${producto.img}" alt="">
+        </div>
+        <p>${producto.nombre}</p>
+        <div class="pricebutton">
+        <p>$${producto.precio}</p>
+        <button type="button" class="btn btn-info" onClick=comprar(${producto.id})>agregar</button>
+        </div>`
 
 ul.append(li);
+        }
+        
+        
+    })
+}
 
-});
+InsertarProductos()
+
 
 let carrito = 0
 function comprar (id) {
     const seleccion = document.querySelector(".carritoproductos")
     const li = document.createElement("li")
-    let coincidencia = productos.find((element)=> element.id === id)
+    let coincidencia = producto.find((element)=> element.id === id)
     li.innerHTML = `<img src="${coincidencia.img}" alt="">
     <p>$${coincidencia.precio}</p>`
     Swal.fire({
