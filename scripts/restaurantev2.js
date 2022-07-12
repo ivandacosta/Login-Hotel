@@ -76,20 +76,6 @@ ul.append(li)
 
 InsertarProductos();
 
-// productos.forEach(producto =>{
-//     const ul = document.querySelector(".listado")
-//     const li = document.createElement("li")
-//     li.innerHTML = `<div class="imagenproductoresto">
-//     <img src="${producto.img}" alt="">
-// </div>
-// <p>${producto.nombre}</p>
-// <div class="pricebutton">
-//     <p>${producto.precio}</p>
-//     <button id="add1" onClick=comprar(${producto.id})>agregar</button>
-// </div>`
-// ul.append(li)
-// })
-
 function comprar (id){
     const listado = document.querySelector(".carritoresto")
     const li = document.createElement("li");
