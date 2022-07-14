@@ -21,7 +21,7 @@ const InsertarProductos = () =>{
 </div>
 <p>${producto.nombre}</p>
 <div class="pricebutton">
-    <p>${producto.precio}</p>
+    <p>$${producto.precio}</p>
     <button id="add1" onClick=comprar(${producto.id})>agregar</button>
 </div>`
 ul.append(li)
